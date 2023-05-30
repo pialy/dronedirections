@@ -1,0 +1,25 @@
+<Uno>
+
+    BoxLayout:
+        orientation: "vertical"
+        BoxLayout: 
+            orientation: "horizontal"
+            padding: 1, 1, 1, 0
+            size_hint: 1, 0.15
+            Button:
+                text: "Land"
+            Button:
+                text: "Follow line"
+            Button:
+                text: "Disconnect"
+            Button:
+                text: "Quit"                
+        BoxLayout:
+            orientation: "vertical"
+            padding: 1, 1, 1, 1
+            Image:
+                source: "pho.jpg"
+                allow_stretch: True
+                width: self.parent.width
+                height: self.parent.width/self.image_ratio
+            
