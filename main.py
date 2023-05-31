@@ -65,9 +65,9 @@ x = threading.Thread(target=rotation)
 
 
 y.start()
-time.sleep(4)
+time.sleep(10)
 c1 = time.time()
-me.move_forward(20)
+me.move_forward(100)
 c2 = time.time()
 d = c2-c1
 print(f"Delay is : {d}")
