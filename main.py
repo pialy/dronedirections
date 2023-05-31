@@ -66,7 +66,11 @@ x = threading.Thread(target=rotation)
 
 y.start()
 time.sleep(4)
+c1 = time.time()
 me.move_forward(20)
+c2 = time.time()
+d = c2-c1
+print(f"Delay is : {d}")
 
 # for i in range(8):
 #     me.rotate_clockwise(45)
