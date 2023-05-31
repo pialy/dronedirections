@@ -1,0 +1,15 @@
+<CameraClick>:
+    orientation: 'vertical'
+    Camera:
+        id: camera
+        size_hint_y: None
+        height: self.width / camera.image_ratio
+        allow_stretch: True
+        keep_ratio: False
+        play: False
+
+    ToggleButton:
+        text: 'Play'
+        on_press: camera.play = not camera.play
+        size_hint_y: None
+        height: '48dp'
