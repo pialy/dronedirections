@@ -19,11 +19,6 @@ me.streamon()
 me.takeoff()
 
 
-def rotation():
-        me.rotate_clockwise(90)
-        time.sleep(2)
-
-
 
 def camera():    
     n = 0
